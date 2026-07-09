@@ -60,7 +60,7 @@ Credit-Card-Fraud-Detection-ML/
 │   └── results_summary.txt          # Same results, human-readable
 │
 ├── report/
-│   └── final_report.pdf             # Full written report (summary, critical evaluation,
+│   └── Credit_Card_Fraud_Report.pdf             # Full written report (summary, critical evaluation,
 │                                     # featusre engineering analysis, reproducibility,
 │                                     # experimental results, conclusions)
 │
@@ -152,7 +152,7 @@ Accuracy is intentionally excluded from the results table, as it is not a meanin
 - XGBoost outperformed Random Forest on Precision, Recall, F1, and MCC, while Random Forest achieved a marginally higher ROC-AUC, indicating slightly better overall ranking of transactions by fraud risk.
 - Error analysis showed that most missed frauds (false negatives) had a PCA feature signature closely resembling legitimate transactions, rather than failure being driven primarily by transaction amount. A smaller subset of missed frauds involved unusually large amounts that still received very low predicted fraud probability — the more concerning failure mode operationally.
 - Cross-validation confirmed that the single train/test split results were stable rather than a result of a lucky split.
-- Full critical discussion of whether the reference paper's claims hold up under closer scrutiny is available in `report/final_report.pdf`.
+- Full critical discussion of whether the reference paper's claims hold up under closer scrutiny is available in `report/Credit_Card_Fraud_Report.pdf`.
 
 
 

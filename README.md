@@ -56,7 +56,6 @@ Credit-Card-Fraud-Detection-ML/
 │
 ├── output/
 │   ├── confusion_matrices.png       # Confusion matrix visualizations
-│   ├── processed_data.csv           # Scaled/processed dataset used for training
 │   ├── results_summary.json         # All metrics/stats, machine-readable
 │   └── results_summary.txt          # Same results, human-readable
 │

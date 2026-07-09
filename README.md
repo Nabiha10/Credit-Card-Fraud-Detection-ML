@@ -75,7 +75,7 @@ Credit-Card-Fraud-Detection-ML/
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/Credit-Card-Fraud-Detection-ML.git
+git clone https://github.com/Nabiha10/Credit-Card-Fraud-Detection-ML.git
 cd Credit-Card-Fraud-Detection-ML
 ```
 
